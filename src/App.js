@@ -64,7 +64,7 @@ const LandingPage = () => {
           {/* Beta Signup Card */}
           <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
             <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-              <Download className="w-6 h-6 text-green-600" />
+              <Star className="w-6 h-6 text-green-600" />
             </div>
             <h2 className="text-xl font-semibold mb-4 text-gray-800">difPy Pro Beta</h2>
             <p className="text-gray-600 mb-6">
@@ -81,7 +81,7 @@ const LandingPage = () => {
           {/* Support Card */}
           <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
             <div className="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-              <ExternalLink className="w-6 h-6 text-blue-600" />
+              <HeartHandshake className="w-6 h-6 text-blue-600" />
             </div>
             <h2 className="text-xl font-semibold mb-4 text-gray-800">Support difPy</h2>
             <p className="text-gray-600 mb-6">
@@ -100,7 +100,7 @@ const LandingPage = () => {
       {/* Footer */}
       <footer className="border-t border-gray-200 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-600">
-          <p>2024 difPy ❤️ by Elise Landman</p>
+          <p>2024 difPy ❤️ by <a href="https://www.linkedin.com/in/eliselandman/">Elise Landman</a></p>
         </div>
       </footer>
     </div>
