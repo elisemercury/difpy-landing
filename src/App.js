@@ -28,7 +28,7 @@ const LandingPage = () => {
               Documentation
             </a>
             <a 
-              href="https://github.com/nicolasmetallo/difpy" 
+              href="https://github.com/elisemercury/Duplicate-Image-Finder" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-600 hover:text-gray-800 transition-colors"
@@ -81,7 +81,7 @@ const LandingPage = () => {
             </p>
             <button 
               onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
-              className="w-full bg-[#0046FF] text-white rounded-xl py-3 hover:bg-[#0035CC] transition-colors"
+              className="w-full border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 hover:bg-[#7C5CFF] hover:text-white transition-colors"
             >
               Join Beta
             </button>
@@ -97,8 +97,8 @@ const LandingPage = () => {
               Help us maintain and improve difPy by supporting the project. Every contribution makes a difference.
             </p>
             <button 
-              onClick={() => handleRedirect('https://difpy.readthedocs.io/en/latest/contributing.html')}
-              className="w-full bg-[#7C5CFF] text-white rounded-xl py-3 hover:bg-[#6647FF] transition-colors"
+              onClick={() => handleRedirect('https://github.com/sponsors/elisemercury?frequency=one-time&sponsor=elisemercury')}
+              className="w-full border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 hover:bg-[#7C5CFF] hover:text-white transition-colors"
             >
               Donate Now
             </button>
@@ -109,7 +109,7 @@ const LandingPage = () => {
       {/* Footer */}
       <footer className="border-t border-gray-200 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-600">
-          <p>© 2024 difPy. All rights reserved.</p>
+          <p>2024 difPy by Elise Landman</p>
         </div>
       </footer>
     </div>
