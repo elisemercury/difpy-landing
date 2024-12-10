@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Book, Download } from 'lucide-react';
+import { Star, Book, HeartHandshake } from 'lucide-react';
 
 const LandingPage = () => {
   const handleRedirect = (url) => {
