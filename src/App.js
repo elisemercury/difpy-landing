@@ -77,7 +77,7 @@ const LandingPage = () => {
             </div>
             <h2 className="text-xl font-semibold mb-4 text-gray-800">difPy Pro for Desktop Beta</h2>
             <p className="text-gray-600 mb-6">
-              Be among the first to try difPy Pro for Desktop. Sign up for our beta program today.
+              Be among the first to try difPy Pro for Desktop! Sign up for our beta program today.
             </p>
             <button 
               onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
@@ -94,7 +94,7 @@ const LandingPage = () => {
             </div>
             <h2 className="text-xl font-semibold mb-4 text-gray-800">Support difPy</h2>
             <p className="text-gray-600 mb-6">
-              Help us maintain and improve difPy by supporting the project. Every contribution makes a difference.
+              Help us maintain and improve difPy by supporting the project.
             </p>
             <button 
               onClick={() => handleRedirect('https://github.com/sponsors/elisemercury?frequency=one-time&sponsor=elisemercury')}
