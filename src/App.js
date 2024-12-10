@@ -36,7 +36,7 @@ const LandingPage = () => {
         <h1 className="text-5xl font-bold text-gray-800 mb-6">
           Duplicate Image Finder
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-3">
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-1">
         A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
         </p>
       </header>
@@ -72,7 +72,7 @@ const LandingPage = () => {
             </p>
             <button 
               onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
-              className="w-full bg-[#7C5CFF] text-white rounded-xl py-3 hover:bg-white hover:text-[#7C5CFF] hover:border-[#7C5CFF] border-2 border-[#7C5CFF] transition-colors"
+              className="w-full border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 hover:bg-[#7C5CFF] hover:text-white transition-colors"
             >
               Join Beta
             </button>
