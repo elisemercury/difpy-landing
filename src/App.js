@@ -42,10 +42,10 @@ const LandingPage = () => {
       {/* Hero Section */}
       <header className="text-center py-20 px-4">
         <h1 className="text-5xl font-bold text-gray-800 mb-6">
-          Eliminate Duplicate Images<br />with Precision
+          Duplicate Image Finder
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
-          Python package that helps you find and remove duplicate images fast,
+          Python package that helps you find and remove duplicate & similar images,
           saving storage space and organizing your photo library efficiently.
         </p>
       </header>
