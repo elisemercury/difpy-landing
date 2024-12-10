@@ -20,14 +20,6 @@ const LandingPage = () => {
           </div>
           <div className="flex space-x-6">
             <a 
-              href="https://difpy.readthedocs.io/en/latest/index.html" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-gray-800 transition-colors"
-            >
-              Documentation
-            </a>
-            <a 
               href="https://github.com/elisemercury/Duplicate-Image-Finder" 
               target="_blank" 
               rel="noopener noreferrer" 
@@ -45,8 +37,7 @@ const LandingPage = () => {
           Duplicate Image Finder
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
-          A powerful Python package that helps you find and remove duplicate & similar images,
-          saving storage space and organizing your photo library efficiently.
+        A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
         </p>
       </header>
 
