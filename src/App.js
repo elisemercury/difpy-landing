@@ -36,7 +36,7 @@ const LandingPage = () => {
         <h1 className="text-5xl font-bold text-gray-800 mb-6">
           Duplicate Image Finder
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-6">
         A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
         </p>
       </header>
