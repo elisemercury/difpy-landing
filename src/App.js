@@ -100,7 +100,7 @@ const LandingPage = () => {
       {/* Footer */}
       <footer className="border-t border-gray-200 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-600">
-          <p>2024 difPy by Elise Landman</p>
+          <p>2024 difPy ❤️ by Elise Landman</p>
         </div>
       </footer>
     </div>
