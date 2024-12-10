@@ -72,7 +72,7 @@ const LandingPage = () => {
             </p>
             <button 
               onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
-              className="w-full border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 hover:bg-[#7C5CFF] hover:text-white transition-colors"
+              className="w-full bg-[#7C5CFF] text-white rounded-xl py-3 hover:bg-white hover:text-[#7C5CFF] hover:border-[#7C5CFF] border-2 border-[#7C5CFF] transition-colors"
             >
               Join Beta
             </button>
