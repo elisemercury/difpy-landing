@@ -77,7 +77,7 @@ const LandingPage = () => {
             </div>
             <h2 className="text-xl font-semibold mb-4 text-gray-800">difPy Pro Beta</h2>
             <p className="text-gray-600 mb-6">
-              Be among the first to try the difPy Pro desktop app! Become a beta tester today 🚀
+              Become a beta tester and among the first to try the difPy Pro desktop app 🚀
             </p>
             <button 
               onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
