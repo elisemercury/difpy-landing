@@ -45,7 +45,7 @@ const LandingPage = () => {
           Eliminate Duplicate Images<br />with Precision
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
-          A powerful Python package that helps you find and remove duplicate images,
+          Python package that helps you find and remove duplicate images fast,
           saving storage space and organizing your photo library efficiently.
         </p>
       </header>
@@ -60,7 +60,7 @@ const LandingPage = () => {
             </div>
             <h2 className="text-xl font-semibold mb-4 text-gray-800">Documentation</h2>
             <p className="text-gray-600 mb-6">
-              Get started with our comprehensive documentation. Learn how to integrate difPy into your projects.
+              Read our documentation on how to install and get started with difPy.
             </p>
             <button 
               onClick={() => handleRedirect('https://difpy.readthedocs.io/en/latest/index.html')}
@@ -75,7 +75,7 @@ const LandingPage = () => {
             <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
               <Download className="w-6 h-6 text-green-600" />
             </div>
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">difPy Pro Beta</h2>
+            <h2 className="text-xl font-semibold mb-4 text-gray-800">difPy Pro for Desktop Beta</h2>
             <p className="text-gray-600 mb-6">
               Be among the first to try difPy Pro for Desktop. Sign up for our beta program today.
             </p>
@@ -83,7 +83,7 @@ const LandingPage = () => {
               onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
               className="w-full border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 hover:bg-[#7C5CFF] hover:text-white transition-colors"
             >
-              Join Beta
+              Join Beta 🚀
             </button>
           </div>
 
