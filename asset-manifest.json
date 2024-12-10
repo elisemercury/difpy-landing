@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/difpy-landing/static/css/main.ff338e7d.css",
-    "main.js": "/difpy-landing/static/js/main.310e8f2f.js",
+    "main.css": "/difpy-landing/static/css/main.166f4779.css",
+    "main.js": "/difpy-landing/static/js/main.e72a86ed.js",
     "static/js/488.78ff49fa.chunk.js": "/difpy-landing/static/js/488.78ff49fa.chunk.js",
     "index.html": "/difpy-landing/index.html",
-    "main.ff338e7d.css.map": "/difpy-landing/static/css/main.ff338e7d.css.map",
-    "main.310e8f2f.js.map": "/difpy-landing/static/js/main.310e8f2f.js.map",
+    "main.166f4779.css.map": "/difpy-landing/static/css/main.166f4779.css.map",
+    "main.e72a86ed.js.map": "/difpy-landing/static/js/main.e72a86ed.js.map",
     "488.78ff49fa.chunk.js.map": "/difpy-landing/static/js/488.78ff49fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff338e7d.css",
-    "static/js/main.310e8f2f.js"
+    "static/css/main.166f4779.css",
+    "static/js/main.e72a86ed.js"
   ]
 }
