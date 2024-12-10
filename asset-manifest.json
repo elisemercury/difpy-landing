@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/difpy-landing/static/css/main.12adedff.css",
-    "main.js": "/difpy-landing/static/js/main.8fcbc434.js",
+    "main.js": "/difpy-landing/static/js/main.9cc0dad6.js",
     "static/js/488.78ff49fa.chunk.js": "/difpy-landing/static/js/488.78ff49fa.chunk.js",
     "index.html": "/difpy-landing/index.html",
     "main.12adedff.css.map": "/difpy-landing/static/css/main.12adedff.css.map",
-    "main.8fcbc434.js.map": "/difpy-landing/static/js/main.8fcbc434.js.map",
+    "main.9cc0dad6.js.map": "/difpy-landing/static/js/main.9cc0dad6.js.map",
     "488.78ff49fa.chunk.js.map": "/difpy-landing/static/js/488.78ff49fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12adedff.css",
-    "static/js/main.8fcbc434.js"
+    "static/js/main.9cc0dad6.js"
   ]
 }
