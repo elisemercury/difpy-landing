@@ -71,7 +71,7 @@ const LandingPage = () => {
               Become a beta tester and be among the first to try the difPy desktop app 🚀
             </p>
             <button 
-              onClick={() => handleRedirect('https://forms.gle/n4radsniGohGwubN7')}
+              onClick={() => handleRedirect('https://difpy.short.gy/desktop-beta-wst')}
               className="w-full bg-[#7C5CFF] border-2 border-[#7C5CFF] text-white rounded-xl py-3 hover:bg-white hover:text-[#7C5CFF] transition-colors"
             >
               Join Beta
