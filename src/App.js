@@ -1,8 +1,40 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Star, Book, HeartHandshake } from 'lucide-react';
 
 const LandingPage = () => {
+  // Initialize Google Analytics
+  useEffect(() => {
+    // Add Google Analytics Script
+    const script1 = document.createElement('script');
+    script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-0BB9MDLHL7';
+    script1.async = true;
+    document.head.appendChild(script1);
+
+    // Add GA4 initialization code
+    const script2 = document.createElement('script');
+    script2.text = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', ' G-0BB9MDLHL7');
+    `;
+    document.head.appendChild(script2);
+
+    // Cleanup function
+    return () => {
+      document.head.removeChild(script1);
+      document.head.removeChild(script2);
+    };
+  }, []); // Empty dependency array means this runs once on mount
+
   const handleRedirect = (url) => {
+    // Track outbound links
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'click', {
+        'event_category': 'outbound',
+        'event_label': url
+      });
+    }
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
@@ -37,7 +69,7 @@ const LandingPage = () => {
           Duplicate Image Finder
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-3">
-        A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
+          A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
         </p>
       </header>
 
