@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import DesktopBeta from './DesktopBeta';
 import BetaAccess from './BetaAccess';
-import BetaDownload from './BetaAccess';
+import BetaDownload from './BetaDownload';
 
 const App = () => {
   return (
