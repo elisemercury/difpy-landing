@@ -15,7 +15,7 @@ const BetaAccess = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Hash of 'beta123'
-    const correctHash = '115114d82b3d767eb30f6c1f034fad1ad39424707f0fb8e0489af8eccf40d599';
+    const correctHash = 'd1fcb061a0c12ac572899469b29df4cb959ed14321dd71338ae6d573dd44c6b7';
     
     if (hashPassword(password) === correctHash) {
       sessionStorage.setItem('betaAuthorized', 'true');
