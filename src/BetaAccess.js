@@ -28,10 +28,10 @@ const BetaAccess = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-purple-50 px-0">
+    <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
       <Header showGithubLink={false} />
 
-      <div className="max-w-md mx-auto px-4 mt-20">
+      <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <div className="bg-white rounded-2xl p-8 shadow-lg">
           <div className="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center mb-6 mx-auto">
             <Key className="w-6 h-6 text-purple-600" />
