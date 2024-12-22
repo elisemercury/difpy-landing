@@ -28,7 +28,7 @@ const BetaAccess = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-b from-white to-purple-50 px-0">
       <Header showGithubLink={false} />
 
       <div className="max-w-md mx-auto px-4 mt-20">
