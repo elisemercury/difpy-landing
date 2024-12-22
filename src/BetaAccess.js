@@ -32,14 +32,10 @@ const BetaAccess = () => {
       <Header showGithubLink={false} />
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
-          <div className="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center mb-6 mx-auto">
-            <Key className="w-6 h-6 text-purple-600" />
-          </div>
-          <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-            Beta Access Required
-          </h2>
-          <form onSubmit={handleSubmit}>
+        <h2 className="text-4xl font-bold text-gray-800 mb-6">
+        Beta Access Key Required
+        </h2>
+        <form onSubmit={handleSubmit}>
             <input
               type="password"
               value={password}
@@ -60,6 +56,12 @@ const BetaAccess = () => {
               Access Beta
             </button>
           </form>
+
+        <div className="text-center max-w-2xl mx-auto">
+          <h3 className="text-2xl font-semibold mb-4 text-gray-800">
+            <a href="https://difpy.readthedocs.io/en/latest/resources/desktop.html">Learn more</a> about the difPy for Desktop beta tester program.
+          </h3>
+
         </div>
       </div>
     </div>
