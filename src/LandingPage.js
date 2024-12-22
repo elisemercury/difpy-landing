@@ -1,5 +1,6 @@
 import React from 'react';
 import { Star, Book, HeartHandshake } from 'lucide-react';
+import Header from './Header';
 
 const LandingPage = () => {
   const handleRedirect = (url) => {
@@ -8,36 +9,15 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
-      {/* Navigation */}
-      <nav className="p-6">
-        <div className="flex items-center justify-between max-w-6xl mx-auto">
-          <div className="flex items-center space-x-2">
-            <div className="flex flex-col">
-              <div className="w-6 h-6 rounded-lg bg-[#7C5CFF]"></div>
-              <div className="w-6 h-6 rounded-lg bg-[#0046FF] mt-1"></div>
-            </div>
-            <span className="text-3xl font-semibold text-gray-800">difPy</span>
-          </div>
-          <div className="flex space-x-6">
-            <a 
-              href="https://github.com/elisemercury/Duplicate-Image-Finder" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-gray-800 transition-colors"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-      </nav>
-
+      <Header />
+      
       {/* Hero Section */}
       <header className="text-center py-10 px-4">
         <h1 className="text-5xl font-bold text-gray-800 mb-6">
           Duplicate Image Finder
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-3">
-        A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
+          A powerful Python package that helps you find and remove duplicate & similar images, saving storage space and helping you organize your photo library more efficiently.
         </p>
       </header>
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Download, MessageSquare, Bug } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import Header from './Header';
 
 const BetaDownload = () => {
   const navigate = useNavigate();
@@ -13,17 +14,7 @@ const BetaDownload = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
-      <nav className="p-6">
-        <div className="flex items-center justify-between max-w-6xl mx-auto">
-          <div className="flex items-center space-x-2">
-            <div className="flex flex-col">
-              <div className="w-6 h-6 rounded-lg bg-[#7C5CFF]"></div>
-              <div className="w-6 h-6 rounded-lg bg-[#0046FF] mt-1"></div>
-            </div>
-            <span className="text-3xl font-semibold text-gray-800">difPy</span>
-          </div>
-        </div>
-      </nav>
+      <Header showGithubLink={false} />
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">

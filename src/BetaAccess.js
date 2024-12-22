@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Key, ShieldAlert } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import CryptoJS from 'crypto-js';
+import Header from './Header';
 
 const BetaAccess = () => {
   const [password, setPassword] = useState('');
@@ -28,17 +29,7 @@ const BetaAccess = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
-      <nav className="p-6">
-        <div className="flex items-center justify-between max-w-6xl mx-auto">
-          <div className="flex items-center space-x-2">
-            <div className="flex flex-col">
-              <div className="w-6 h-6 rounded-lg bg-[#7C5CFF]"></div>
-              <div className="w-6 h-6 rounded-lg bg-[#0046FF] mt-1"></div>
-            </div>
-            <span className="text-3xl font-semibold text-gray-800">difPy</span>
-          </div>
-        </div>
-      </nav>
+      <Header showGithubLink={false} />
 
       <div className="max-w-md mx-auto mt-20 p-6">
         <div className="bg-white rounded-2xl p-8 shadow-lg">
