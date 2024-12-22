@@ -8,7 +8,7 @@ const Header = ({ showGithubLink = true }) => {
   return (
     <>
       {/* Fixed logo container */}
-      <div className="fixed top-6 left-6 z-50">
+      <div className="fixed top-6 left-10 z-50">
         <div 
           className="flex items-center space-x-2 cursor-pointer" 
           onClick={handleLogoClick}
