@@ -10,7 +10,7 @@ const Header = ({ showGithubLink = true }) => {
 
   return (
     <nav className="p-6">
-      <div className="flex items-center justify-between max-w-6xl mx-auto">
+      <div className="flex items-center justify-between max-w-6xl mx-auto px-4">
         <div 
           className="flex items-center space-x-2 cursor-pointer" 
           onClick={handleLogoClick}
