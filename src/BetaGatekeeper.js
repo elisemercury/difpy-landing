@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import CryptoJS from 'crypto-js';
 import Header from './Header';
 
-const BetaAccess = () => {
+const BetaGatekeeper = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ const BetaAccess = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-purple-50 px-0">
+    <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
       <Header showGithubLink={false} />
 
       <div className="max-w-md mx-auto px-4 mt-20">
@@ -37,7 +37,7 @@ const BetaAccess = () => {
             <Key className="w-6 h-6 text-purple-600" />
           </div>
           <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-            Beta Access Required
+            Access Key Required
           </h2>
           <form onSubmit={handleSubmit}>
             <input
@@ -60,10 +60,13 @@ const BetaAccess = () => {
               Access Beta
             </button>
           </form>
+          <p className="text-xs mt-6 text-center text-gray-800">
+            <a className="text-blue-600" href="https://difpy.readthedocs.io/en/latest/resources/desktop.html">Learn more</a> about the difPy for Desktop beta program.
+          </p>
         </div>
       </div>
     </div>
   );
 };
 
-export default BetaAccess;
+export default BetaGatekeeper;

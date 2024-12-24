@@ -18,11 +18,10 @@ const BetaDownload = () => {
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">
-          Welcome to difPy Desktop Beta!
+          Welcome to difPy for Desktop beta!
         </h1>
         <p className="text-xl text-gray-600 mb-12">
-          Thank you for your interest in helping us shape the future of difPy. 
-          Your participation in our beta program is invaluable.
+          Thank you for your interest in being a beta tester for the new difPy desktop app.
         </p>
 
         <div className="bg-white rounded-2xl p-8 shadow-lg mb-12">
@@ -30,7 +29,7 @@ const BetaDownload = () => {
             <Download className="w-6 h-6 text-purple-600" />
           </div>
           <h2 className="text-2xl font-semibold mb-6 text-gray-800">
-            Download Beta v1.0
+            Download difPy Desktop v1.0-beta
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
@@ -43,7 +42,7 @@ const BetaDownload = () => {
               onClick={() => window.location.href = '/downloads/difpy-desktop-1.0-beta.dmg'}
               className="flex-1 bg-[#7C5CFF] text-white rounded-xl py-3 px-6 hover:bg-[#6a4edb] transition-colors"
             >
-              Download for macOS
+              Download for MacOS
             </button>
           </div>
         </div>
@@ -53,12 +52,12 @@ const BetaDownload = () => {
             Help Us Improve
           </h3>
           <p className="text-gray-600 mb-6">
-            Beta testing is vital to making difPy Desktop the best it can be at launch. 
+            Beta testing is vital to making difPy Desktop the best it can be at launch 🚀<br></br>
             Your feedback and bug reports are extremely valuable to us.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://forms.gle/feedbackform" 
+              href="https://github.com/elisemercury/difpy-for-desktop/discussions/new?category=feedback" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 px-6 hover:bg-[#7C5CFF] hover:text-white transition-colors"
@@ -67,7 +66,7 @@ const BetaDownload = () => {
               <span>Provide Feedback</span>
             </a>
             <a 
-              href="https://github.com/elisemercury/Duplicate-Image-Finder/issues" 
+              href="https://github.com/elisemercury/difpy-for-desktop/issues/new" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 px-6 hover:bg-[#7C5CFF] hover:text-white transition-colors"
