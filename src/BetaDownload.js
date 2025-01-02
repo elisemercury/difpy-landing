@@ -33,13 +33,13 @@ const BetaDownload = () => {
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
-              onClick={() => window.location.href = '/downloads/difpy-desktop-1.0-beta.exe'}
+              onClick={() => window.location.href = 'https://difpy.app'}
               className="flex-1 bg-[#7C5CFF] text-white rounded-xl py-3 px-6 hover:bg-[#6a4edb] transition-colors"
             >
               Download for Windows
             </button>
             <button 
-              onClick={() => window.location.href = '/downloads/difpy-desktop-1.0-beta.dmg'}
+              onClick={() => window.location.href = 'https://difpy.app'}
               className="flex-1 bg-[#7C5CFF] text-white rounded-xl py-3 px-6 hover:bg-[#6a4edb] transition-colors"
             >
               Download for MacOS
@@ -57,7 +57,7 @@ const BetaDownload = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://github.com/elisemercury/difpy-for-desktop/discussions/new?category=feedback" 
+              href="https://go.difpy.app/desktop-feedback" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 px-6 hover:bg-[#7C5CFF] hover:text-white transition-colors"
@@ -66,7 +66,7 @@ const BetaDownload = () => {
               <span>Provide Feedback</span>
             </a>
             <a 
-              href="https://github.com/elisemercury/difpy-for-desktop/issues/new" 
+              href="https://go.difpy.app/desktop-bug" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 border-2 border-[#7C5CFF] text-[#7C5CFF] rounded-xl py-3 px-6 hover:bg-[#7C5CFF] hover:text-white transition-colors"
