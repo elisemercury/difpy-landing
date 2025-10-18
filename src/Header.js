@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Header = ({ showGithubLink = true }) => {
+const Header = () => {
   const navigate = useNavigate();
   
   const handleLogoClick = () => {
@@ -21,18 +21,6 @@ const Header = ({ showGithubLink = true }) => {
           </div>
           <span className="text-3xl font-semibold text-gray-800">difPy</span>
         </div>
-        {showGithubLink && (
-          <div className="ml-auto">
-            <a 
-              href="https://github.com/elisemercury/Duplicate-Image-Finder" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-gray-800 transition-colors"
-            >
-              GitHub
-            </a>
-          </div>
-        )}
       </div>
     </nav>
   );
