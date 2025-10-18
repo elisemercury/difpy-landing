@@ -5,7 +5,7 @@ import Header from './Header';
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
-      <Header showGithubLink={false} />
+      <Header />
 
       <div className="max-w-2xl mx-auto px-4 mt-20">
         <div className="bg-white rounded-2xl p-8 shadow-lg">

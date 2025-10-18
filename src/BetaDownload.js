@@ -14,7 +14,7 @@ const BetaDownload = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-purple-50">
-      <Header showGithubLink={false} />
+      <Header />
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">
