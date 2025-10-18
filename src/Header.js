@@ -3,14 +3,14 @@ import { useNavigate } from 'react-router-dom';
 
 const Header = ({ showGithubLink = true }) => {
   const navigate = useNavigate();
-
+  
   const handleLogoClick = () => {
     window.location.href = 'https://www.difpy.app';
   };
-
+  
   return (
     <nav className="p-6">
-      <div className="flex items-center justify-between max-w-6xl mx-6">
+      <div className="flex items-center justify-between max-w-6xl mx-auto">
         <div 
           className="flex items-center space-x-2 cursor-pointer" 
           onClick={handleLogoClick}
@@ -22,7 +22,7 @@ const Header = ({ showGithubLink = true }) => {
           <span className="text-3xl font-semibold text-gray-800">difPy</span>
         </div>
         {showGithubLink && (
-          <div className="flex space-x-6">
+          <div className="ml-auto">
             <a 
               href="https://github.com/elisemercury/Duplicate-Image-Finder" 
               target="_blank" 
